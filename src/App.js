@@ -79,7 +79,7 @@ function App() {
 
   useEffect(() => {
     if (names) {
-    getParses(names.split(' '), mode);
+      getParses(names.split(' '), mode);
     }
   }, [names, mode, raid]);
 
